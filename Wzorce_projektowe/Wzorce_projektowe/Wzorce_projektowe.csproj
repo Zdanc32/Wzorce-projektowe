@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE78B2DB-5297-4D2B-BD8F-5D180DD76EF6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wzorce_projektowe</RootNamespace>
+    <AssemblyName>Wzorce_projektowe</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder\ArcaneMage.cs" />
+    <Compile Include="Builder\Directory.cs" />
+    <Compile Include="Builder\FireMage.cs" />
+    <Compile Include="Builder\FrostMage.cs" />
+    <Compile Include="Builder\Necromancer.cs" />
+    <Compile Include="Builder\Sourcer.cs" />
+    <Compile Include="Builder\SourcerBuilder.cs" />
+    <Compile Include="Dekorator\Decorator.cs" />
+    <Compile Include="Dekorator\EliteWarrior.cs" />
+    <Compile Include="Dekorator\Person.cs" />
+    <Compile Include="Dekorator\Shield.cs" />
+    <Compile Include="Dekorator\Sword.cs" />
+    <Compile Include="Dekorator\Warrior.cs" />
+    <Compile Include="FactoryMethod\CastFireBoltSkill.cs" />
+    <Compile Include="FactoryMethod\IceBlockSkill.cs" />
+    <Compile Include="FactoryMethod\Skill.cs" />
+    <Compile Include="FactoryMethod\FurySkill.cs" />
+    <Compile Include="FactoryMethod\HeroicAttackSkill.cs" />
+    <Compile Include="FactoryMethod\Creator.cs" />
+    <Compile Include="FactoryMethod\WarriorCreator.cs" />
+    <Compile Include="FactoryMethod\MageCreator.cs" />
+    <Compile Include="Strategy\Context.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\SingletonWithoutLocks.cs" />
+    <Compile Include="Strategy\Strategy.cs" />
+    <Compile Include="Strategy\StrategyMethodA.cs" />
+    <Compile Include="Strategy\StrategyMethodB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Builder\BuilderPatternDiagram.cd" />
+    <None Include="Dekorator\Decorator.cd" />
+    <None Include="FactoryMethod\FactoryMethod.cd" />
+    <None Include="Strategy\Strategy.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

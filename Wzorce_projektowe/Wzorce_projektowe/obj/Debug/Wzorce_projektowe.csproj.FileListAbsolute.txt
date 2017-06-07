@@ -1,0 +1,6 @@
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe.config
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.pdb
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.exe
+C:\Users\Gabriel\Desktop\TanksOnline-Gabriel\TanksOnline.ProjektPZ.Social\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.pdb

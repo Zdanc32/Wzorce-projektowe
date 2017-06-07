@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Wzorce_projektowe.Dekorator.Decorator" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dekorator\Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.Dekorator.EliteWarrior" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Dekorator\EliteWarrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.Dekorator.Person" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Dekorator\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.Dekorator.Shield" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Dekorator\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.Dekorator.Sword" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Dekorator\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.Dekorator.Warrior" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Dekorator\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Wzorce_projektowe.FactoryMethod.FurySkill" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\FurySkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.Creator" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.CastFireBoltSkill" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\CastFireBoltSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.HeroicAttackSkill" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Wzorce_projektowe.FactoryMethod.Skill" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="4.562" />
+        <Point X="6.25" Y="4.95" />
+        <Point X="8.75" Y="4.95" />
+        <Point X="8.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\HeroicAttackSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.IceBlockSkill" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\IceBlockSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.Mage" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\Mage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.Skill" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wzorce_projektowe.FactoryMethod.Warrior" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
