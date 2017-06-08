@@ -8,6 +8,7 @@ using Wzorce_projektowe.Builder;
 using Wzorce_projektowe.Dekorator;
 using Wzorce_projektowe.Strategy;
 using Wzorce_projektowe.FactoryMethod;
+using Wzorce_projektowe.TLP;
 
 namespace Wzorce_projektowe
 {
@@ -20,7 +21,7 @@ namespace Wzorce_projektowe
             do
             {
                 
-                Console.WriteLine("Wybierz wrzocec do przetestowania. \n [ 1 ] Singleton \n [ 2 ] Builder \n [ 3 ] Dekorator \n [ 4 ] Factory Method \n [ 5 ] Strategy \n wybierz: ");
+                Console.WriteLine("Wybierz wrzocec do przetestowania. \n [ 1 ] Singleton \n [ 2 ] Builder \n [ 3 ] Dekorator \n [ 4 ] Factory Method \n [ 5 ] Strategy \n [ 6 ] TLPMain \n wybierz: ");
                 chose = Console.ReadLine();
                 switch (chose)
                 {
@@ -102,7 +103,8 @@ namespace Wzorce_projektowe
                         context2.ContextInterface();
                         break;
                     case "6":
-                        loop = false;
+                        TLPMain tlp = new TLPMain();
+                        tlp.mainTLP();
                         break;
                     default:
                         loop = false;

@@ -71,6 +71,7 @@
     <Compile Include="Strategy\Strategy.cs" />
     <Compile Include="Strategy\StrategyMethodA.cs" />
     <Compile Include="Strategy\StrategyMethodB.cs" />
+    <Compile Include="TLP\TLPMain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
