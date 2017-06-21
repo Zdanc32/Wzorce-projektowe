@@ -29,7 +29,7 @@ namespace Wzorce_projektowe
                         Console.WriteLine("Test dla Singletona");
                         for (int nCounter = 0; nCounter < 10; ++nCounter)
                         {
-                            Console.WriteLine("Sertwer {0}", nCounter + 1);
+                            Console.WriteLine("Serwer {0}", nCounter + 1);
                             SerwerSingletonLocks.Instance.DoSomething();
                         }
                         break;
@@ -105,6 +105,8 @@ namespace Wzorce_projektowe
                     case "6":
                         TLPMain tlp = new TLPMain();
                         tlp.mainTLP();
+                        TLPMain2 tlp2 = new TLPMain2();
+                        tlp2.tlpMain2();
                         break;
                     default:
                         loop = false;

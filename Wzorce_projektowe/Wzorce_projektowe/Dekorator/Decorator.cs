@@ -9,8 +9,15 @@ using System.Threading.Tasks;
 /// </summary>
 namespace Wzorce_projektowe.Dekorator
 {
+    /// <summary>
+    /// Klasa dekoratora odpowiedzalna za wywoływania informacji o osobach wcześniej stworzonych i udekorowanych
+    /// </summary>
     abstract class Decorator : Person
     {
+        /// <summary>
+        /// Abstrakcyjna metoda, która wyświetla informacje o postaci
+        /// </summary>
+        /// <returns></returns>
         public abstract override string about();
     }
 }

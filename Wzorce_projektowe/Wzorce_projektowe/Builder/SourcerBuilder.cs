@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.Builder
 {
+    /// <summary>
+    /// Budowniczy maga jest odpowiedzalna za budowanie każdego z magow Ognia, Lodu, Arcana i Nekromanty
+    /// </summary>
     public abstract class SourcerBuilder
     {
         protected Sourcer sourcer;

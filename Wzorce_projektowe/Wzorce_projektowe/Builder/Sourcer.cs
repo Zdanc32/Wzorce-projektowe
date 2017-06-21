@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.Builder
 {
+    /// <summary>
+    /// Obiekt maga, ktory przetrzymuje publiczne wartosci maga
+    /// </summary>
     public class Sourcer
     {
         public string name { get; set; }

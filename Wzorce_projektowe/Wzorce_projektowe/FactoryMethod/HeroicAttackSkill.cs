@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.FactoryMethod
 {
+    /// <summary>
+    /// Umiejętność heroicznego ataku
+    /// </summary>
     class HeroicAttackSkill : Skill
     {
     }

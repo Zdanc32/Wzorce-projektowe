@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.Builder
 {
+    /// <summary>
+    /// Klasa odpowiedzalna za nekromante
+    /// </summary>
     class Necromancer : SourcerBuilder
     {
         public override void colorOfRobesPlayer()

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.Builder
 {
+    /// <summary>
+    /// Klasa odpowiedzialna za maga lodu
+    /// </summary>
     class FrostMage : SourcerBuilder
     {
         public override void colorOfRobesPlayer()

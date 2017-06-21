@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wzorce_projektowe</name>
+    </assembly>
+    <members>
+        <member name="T:Wzorce_projektowe.Builder.Directory">
+            <summary>
+            Klasa dekoratora odpowiedzalna za budowanie obiektow
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.Builder.FrostMage">
+            <summary>
+            Klasa odpowiedzialna za maga lodu
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.Builder.Necromancer">
+            <summary>
+            Klasa odpowiedzalna za nekromante
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.Builder.Sourcer">
+            <summary>
+            Obiekt maga, ktory przetrzymuje publiczne wartosci maga
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.Builder.SourcerBuilder">
+            <summary>
+            Budowniczy maga jest odpowiedzalna za budowanie każdego z magow Ognia, Lodu, Arcana i Nekromanty
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.Decorator">
+            <summary>
+            Klasa dekoratora odpowiedzalna za wywoływania informacji o osobach wcześniej stworzonych i udekorowanych
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Decorator.about">
+            <summary>
+            Abstrakcyjna metoda, która wyświetla informacje o postaci
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.EliteWarrior">
+            <summary>
+            Klasa odpowiedzialna za przetrzymywanie informacji o Elitarnym wojowniku
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.EliteWarrior.#ctor">
+            <summary>
+            Metoda towrząca elitarnego wojownika
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.EliteWarrior.attackPower">
+            <summary>
+            Metoda nadająca paramtetry startowe ataku dla elitarnego wojownika
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.Person">
+            <summary>
+            Abstrakcyjna klasa osoby, która trzyma informacje o postaci
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Person.about">
+            <summary>
+            Virutalna metoda, która wykorzystywana jest przez klasy w celu wyświetlnia informacji o postaciach
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Person.attackPower">
+            <summary>
+            Abstrakcyjna metoda, w której to inne klasy nadają wartości ataku u postaci
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.Shield">
+            <summary>
+            Obiekt tarczy, ktory jest dodawany do wojownikow gdy zostanie utworzony. 
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Shield.#ctor(Wzorce_projektowe.Dekorator.Person)">
+            <summary>
+            Kontruktor przypisujący obiekt tarczy do osoby
+            </summary>
+            <param name="person"></param>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Shield.about">
+            <summary>
+            Nadpisana metoda virtualna, która wyświetla informacje o osobie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Shield.attackPower">
+            <summary>
+            Nadpisana metoda abstrakcyjna, która zwiększa atak wojownika.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.Sword">
+            <summary>
+            Obiekt miecza 
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Sword.#ctor(Wzorce_projektowe.Dekorator.Person)">
+            <summary>
+            Konstruktor, który przypisuje osobie nowy obiekt miecza.
+            </summary>
+            <param name="person"></param>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Sword.about">
+            <summary>
+            Nadpisana metoda z klasy Person, która ma za zadanie wyświetlać informacje o postaci
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Sword.attackPower">
+            <summary>
+            Nadpisana metoda abstrakcyjna, której zadaniem jest zwiekszanie ataku wojownika w zależności od jego wyszkolenia
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.Dekorator.Warrior">
+            <summary>
+            Klasa wojownika przetrzymująca informacje o standardowym wojowniku
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Warrior.#ctor">
+            <summary>
+            Kontruktor klasy Wojownik, którym tworzymy obiekt
+            </summary>
+        </member>
+        <member name="M:Wzorce_projektowe.Dekorator.Warrior.attackPower">
+            <summary>
+            Nadpisana metoda virtualna zwracająca podstawową wartość ataku wojownika
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.CastFireBoltSkill">
+            <summary>
+            Umiejetnosc rzucania czasu ognistego pocisku
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.IceBlockSkill">
+            <summary>
+            Umiejętnośc tarczy lodu
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.Skill">
+            <summary>
+            Abstrakcyjna klasa umiejętności
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.FurySkill">
+            <summary>
+            Umiejętnośc szału 
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.HeroicAttackSkill">
+            <summary>
+            Umiejętność heroicznego ataku
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.Creator">
+            <summary>
+            Kreator tworzacy listy umiejetności
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.WarriorCreator">
+            <summary>
+            Utworzenie Wojownika ktory dziedziczy z kreatora
+            </summary>
+        </member>
+        <member name="T:Wzorce_projektowe.FactoryMethod.MageCreator">
+            <summary>
+            Utworzenie Maga ktory dziedziczy z kreatora
+            </summary>
+        </member>
+    </members>
+</doc>

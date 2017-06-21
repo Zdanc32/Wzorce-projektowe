@@ -18,8 +18,12 @@ using System.Threading.Tasks;
 ///     pobranie_szkoły_magii
 ///     
 /// </summary>
+
 namespace Wzorce_projektowe.Builder
 {
+    /// <summary>
+    /// Klasa dekoratora odpowiedzalna za budowanie obiektow
+    /// </summary>
     class Directory
     {
 

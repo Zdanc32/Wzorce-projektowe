@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.FactoryMethod
 {
+    /// <summary>
+    /// Utworzenie Maga ktory dziedziczy z kreatora
+    /// </summary>
     class MageCreator : Creator
     {
         public override void createSkill()

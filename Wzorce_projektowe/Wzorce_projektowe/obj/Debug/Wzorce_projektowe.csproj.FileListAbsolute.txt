@@ -10,3 +10,16 @@ C:\Users\gzd\Desktop\Wzorce\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce
 C:\Users\gzd\Desktop\Wzorce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.csprojResolveAssemblyReference.cache
 C:\Users\gzd\Desktop\Wzorce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.exe
 C:\Users\gzd\Desktop\Wzorce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.pdb
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe.config
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.pdb
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.csprojResolveAssemblyReference.cache
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.exe
+C:\Users\s0152964\Desktop\Wzorce-projektowe-master\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.pdb
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe.config
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.exe
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.pdb
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.exe
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\Wzorce_projektowe.pdb
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\obj\Debug\Wzorce_projektowe.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\Wzorcce\Wzorce_projektowe\Wzorce_projektowe\bin\Debug\_projektowe.xml

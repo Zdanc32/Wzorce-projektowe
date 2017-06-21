@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.FactoryMethod
 {
+    /// <summary>
+    /// Kreator tworzacy listy umiejetności
+    /// </summary>
     abstract class Creator
     {
         private List<Skill> skills = new List<Skill>();

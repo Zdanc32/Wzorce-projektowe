@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.FactoryMethod
 {
+    /// <summary>
+    /// Umiejętnośc szału 
+    /// </summary>
     class FurySkill : Skill
     {
     }

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Wzorce_projektowe.FactoryMethod
 {
+    /// <summary>
+    /// Abstrakcyjna klasa umiejętności
+    /// </summary>
     abstract class Skill
     {
     }
